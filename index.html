@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/style.css">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <header class="header-nav">
+            <div id="logo">
+                <img src="https://img.freepik.com/premium-vector/comma-symbol-icon_609277-8808.jpg" alt="logo">
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-menu">
+                <li><a href="#home-page">Home</a></li>
+                <li><a href="#headquarter">Our Profile</a></li>
+                <li><a href="#gallery">Portofolio</a></li>
+                <li><a href="#message">Message Us</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+
+    <main>
+        <section id="home-page">
+            <p>
+                Hi, <span id="username">Name</span>! Selamat datang di Canvas Website!
+            <br>
+                Visi dan Misi kami adalah menyediakan ruang untuk menuangkan kreativitas tanpa batas. 
+                <br>
+                Selamat menikmati!
+            </p>
+        </section>
+
+        <section id="headquarter">
+            <p class="sub-headquarter">
+                Our Headquarter
+            </p>
+            <div class="image">
+                <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Lambang_Kota_Bandung.svg" width="50px" height="50px" alt="Bandung"/>
+                <figcaption>Bandung</figcaption>
+                </figure>
+
+                <figure>
+                    <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Coat_of_arms_of_Jakarta.svg/674px-Coat_of_arms_of_Jakarta.svg.png width="50px" height="50px" alt="Jakarta"/>
+                    <figcaption>Jakarta</figcaption>
+                </figure>
+
+                <figure>
+                    <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Seal_of_Kuningan_Regency.svg/398px-Seal_of_Kuningan_Regency.svg.png width="50px" height="50px" alt="Kuningan"/>
+                    <figcaption>Kuningan</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <figure>
+                <img src=https://upload.wikimedia.org/wikipedia/en/0/0c/Velvet_Underground_and_Nico.jpg width="100px" height="150px" alt="Andy Warhol">
+                <figcaption>Andy Warhol</figcaption>
+            </figure>
+
+            <figure>
+                <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg/500px-Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg width="100px" height="150px" alt="Edvard Munch">
+                <figcaption>Edvard Munch</figcaption>
+            </figure>
+
+
+            <p id="quotes">I want to make beautiful things, 
+                <br>even nobody cares! - Saul Bass</p>
+
+            <figure>
+                <img src=https://upload.wikimedia.org/wikipedia/en/4/4c/No_1_%28Royal_Red_and_Blue%29_by_Mark_Rothko_%281954%29.jpg width="100px" height="150px" alt="Rothko">
+                <figcaption>Rothko</figcaption>
+            </figure>
+
+            <figure>
+                <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1135px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg width="100px" height="150px" alt="Van Gogh">
+                <figcaption>Van Gogh</figcaption>
+            </figure>
+        </section>
+        
+        <section id="container">
+            <form id="message">
+                <fieldset>
+                        <legend>
+                            <h3>Message Us</h3>
+                        </legend>
+                        <label for="nama">Nama:</label>
+                        <input type="text" id="nama" required />
+                        <br>
+                        <label for="tanggal">Tanggal Lahir:</label>
+                        <input type="date" id="tanggal" required/>
+                        <br>
+                        <label>Jenis Kelamin:</label>
+                        <input type="radio" id="pria" name="gender" required />
+                        <label for="pria">Pria</label>
+                        <input type="radio" id="perempuan" name="gender" required />
+                        <label for="perempuan">Perempuan</label>
+                        <br>
+                        <label>Pesan:</label>
+                        <textarea id="pesan" placeholder="Isi pesan di sini" rows="4" cols="50" minlength="20" required></textarea>
+                        <br>
+                        <button><b>Submit</b></button>
+                </fieldset>
+            </form>
+      
+            <fieldset id="results">
+            <legend>
+            <h3>Results</h3> 
+            </legend>
+            </fieldset>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;Revi</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #1E1E1E;
+    padding: 10px 20px;
+}
+
+[id] {
+    scroll-margin-top: 70px;
+}
+
+#logo img {
+    height: 40px;
+    width: auto;
+}
+
+.main-nav, .nav-menu, ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-menu li {
+    background-color: #008080;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #F8F8FF;
+    text-align: center;
+}
+
+#home-page {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav-menu li a {
+    display: block;
+    text-decoration: none;
+    color: #F8F8FF;
+}
+
+#headquarter {
+    background-color: #008080;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 0 2px;
+    -webkit-text-stroke: 0.2px black;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.sub-headquarter {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #F8F8FF;
+}
+
+.image {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    font-size: 12px;
+    color: #F8F8FF;
+}
+
+#gallery {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    -webkit-text-stroke: 0.2px black;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#quotes,
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+fieldset {
+    border: 2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#message, #results {
+    text-shadow: 1px 1px 0px white, -1px -1px 0px white;
+    margin-bottom: 20px;
+    min-width: 300px;
+}
+
+#results {
+    width: auto;
+    text-shadow: 1px 1px 0px white, -1px -1px 0px white;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: right;
+    color: #F8F8FF;
+    background-color: #1E1E1E;
+}
